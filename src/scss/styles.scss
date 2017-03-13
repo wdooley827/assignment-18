@@ -3,6 +3,7 @@
 }
 
 body{
+	background-color: #99AFD5;
 	font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -12,51 +13,91 @@ img {
 }
 
 .header{
-	background: #111;
+	color: white;
+	text-align: center;
+	background: #333333;
+	font-size: 24px;
 }
 
-.header__logo{
-	max-width: 600px;	
+.header h1{
+	margin: 0px;
 }
 
 .tabcontent{
-	margin: 20px auto;
-	max-width: 500px;
+	margin: 0px auto;
+	width: 100%;
 }
 
 .tabcontent__list{
 	font-size: 0;
 }
+
 .tabcontent__tab{
 	width: 25%;
 	display: inline-block;
 	vertical-align: top;
 	font-size: medium;
 	text-align: center;
-	padding: 30px 0;
-   color: #fff;
-	background: rgb(0, 156, 214);
+	padding: 15px 0;
+   color: black;
+	background: #E7E7E7;
 	cursor: pointer;
 }
 
 .tabcontent__tab{
-	border-right: 1px solid #fff;
+	border-right: 1px solid grey;
 }
 
 .tabcontent__tab.active{
-	background: rgb(201, 0, 98);
+	background: #006687;
+	color: white;
 }
 
-.tabcontent__content{
-	border: 1px solid #333;
+.page_content{
+	max-width: 90%;
+	margin: -10px auto;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+	background: white;
 	padding: 10px;
 	line-height: 1.5;
-}
-
-.smalltext{
-	font-size: .75rem;
-	line-height: 1.25;
+	border-bottom: 1px solid lightgrey;
 
 }
-
-
+.page_content h1{
+	background: #F2DEDE;
+	margin: 20px;
+}
+.page_content h2{
+	background: #D4EDFA;
+	margin: 0 10px;
+}
+.page_content tr{
+	border-bottom: 1px solid lightgrey;
+}
+.concerts{
+	border: 3px solid black;
+	height: 450px;
+	width: 30%;
+	margin: 20px;
+	padding: 5px;
+}
+.concerts p{
+	text-align: right;
+}
+.concerts span{
+ background-color: #FCF9E0;
+}
+.home{
+	margin:auto;
+}
+.home h1{
+	margin: 20px 0;
+}
+.carpools{
+	margin: auto;
+	text-indent: 15px;
+}
+.carpools tr{
+	border-bottom: 1px solid lightgrey;
+}
